@@ -31,8 +31,8 @@
     <ItemGroup>
         <!--<PackageReference Include="System.ValueTuple" Version="4.4.0" />-->
         <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.1" />
-        <PackageReference Include="Discord.Net.Commands" Version="2.0.0-beta2-01023" />
-        <PackageReference Include="Discord.Net.WebSocket" Version="2.0.0-beta2-01023" />
+        <PackageReference Include="Discord.Net.Commands" Version="2.1.1" />
+        <PackageReference Include="Discord.Net.WebSocket" Version="2.1.1" />
     </ItemGroup>
     <PropertyGroup Condition="'$(Configuration)' == 'Release'">
         <Optimize>True</Optimize>
@@ -41,5 +41,5 @@
     <PropertyGroup Condition="'$(SolutionDir)' == '' or '$(SolutionDir)' == '*undefined*'">
         <SolutionDir>.\</SolutionDir>
     </PropertyGroup>
-    <Import Project="C:\projects\Discord.Addons\src\Discord.Addons.Core\Discord.Addons.Core.projitems" Label="Shared" />
+    <!-- <Import Project="C:\projects\Discord.Addons\src\Discord.Addons.Core\Discord.Addons.Core.projitems" Label="Shared" /> -->
 </Project>
