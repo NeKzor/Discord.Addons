@@ -1,5 +1,4 @@
 ﻿<Project>
-    <Import Condition="'$(Configuration)' == 'Debug'" Project=".\Analyzers.props" />
     <PropertyGroup Label="Configuration">
         <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
         <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
